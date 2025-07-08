@@ -1,0 +1,195 @@
+body,html{
+    margin:0;
+    padding:0;
+    
+    font-family: "Comfortaa", cursive;
+}
+
+.item{
+    font-family: "Comfortaa", cursive;
+    font-size: 12.25px;
+    font-weight: 400;
+    color:white !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.item:hover{
+    color: rgb(0, 153, 204) !important;
+}
+.nvBar{
+    position: sticky;
+    top:0;
+    border-radius: 30px;
+    background-color: #3A497B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    
+
+
+}
+.logo-text{
+    color:white;
+    font-family: "Nerko One", cursive;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logoIMG{
+    width: 50px;
+    height: 50px;
+}
+.gamebody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 100%;
+    height: 100vh;
+    background-color: #272B30;
+}
+
+.contimag{
+    height: 150px;
+    width: 100%;
+background-image: url("./image/wraper.png");
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+}
+.cardbody{
+    padding: 1rem;
+    background-color: #272B30;
+}
+.gameCard{
+    background-color: #272B30 !important;
+    color:white !important;
+    border-radius: 10px;
+   border-color: black;
+    transition: transform 0.2s;
+    margin:20px;
+padding:0;
+}
+.gameCard:hover {
+    transform: scale(1.05);
+}
+.card-title{
+    font-family: "Nerko One", cursive !important;
+    font-size:14px;
+    font-weight: 500;
+    color: white !important;
+}
+.card-text{
+    font-family: "comfortaa", cursive !important;
+    font-size: 14px;
+    font-weight: 400;
+    color:#494D51;
+    text-align: center;
+    margin:10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    border-top:#282125 1px solid;
+}
+.badge{
+    background-color: #32383E;
+    color: white !important;
+    font-family: "comfortaa", cursive !important;
+    font-size: 10.5px;
+    font-weight: 700;
+    margin-top:5px;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+.gameCard:hover .overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
+.head{
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.BlueText{
+    color:black;
+    font-weight: 700;
+    font-family: "comfortaa", cursive !important;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #0BAECF;
+    padding:3px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.disT{
+    color:white;
+    font-family: "comfortaa", cursive !important;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.detialsBody{
+min-height: 100vh;
+padding: 20px;
+   
+
+    background-color: #27282B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameD-description{
+    font-family: "comfortaa", cursive !important;
+    font-size: 14px;
+    font-weight: 400;
+    color:white;
+}
+.headText{
+    font-family: "nerko one", cursive !important;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.gameD-title{
+    font-family:"nerko one", cursive !important;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+.Disbtn{
+    font-family: "comfortaa", cursive !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    
+    padding:10px 10px;
+   
+    border:1px solid rgba(255, 193, 7, 1);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.backButton{
+    background-color: transparent;
+    color: #C9C9CA;
+    border: none;
+    font-size: 35px;
+    font-family: "comfortaa", cursive !important;
+    font-weight: 400;
+    cursor: pointer;
+
+}
